@@ -16,7 +16,7 @@ Instructions:
 4. In the Addons source directory line, specify HelicopterMod_SERVER-main \ HelicopterMod_SERVER-main \ HelicopterMod_SERVER - the HelicopterMod_SERVER folder
 5. Uncheck Binarize
 6. Pack it.
-7. Place it pbo in any of your mods with a link to the source https://github.com/moddayz
+7. This is a server mod, it needs to be placed in the server mods folder on the server, it is not needed on the client and may cause errors.
 
 
 
@@ -29,4 +29,4 @@ Instructions:
 4. В строке Addons source directory указываете HelicopterMod_SERVER-main \ HelicopterMod_SERVER-main \ HelicopterMod_SERVER - папка HelicopterMod_SERVER 
 5. Уберите галочку Binarize
 6. Запаковываете.
-7. Размещаете pbo в любой свой мод с указанием ссылкой на источник https://github.com/moddayz
+7. Это серверный мод, его нужно поместить в папку серверных модов на сервере, он не нужен на клиенте и может вызвать ошибки.
