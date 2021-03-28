@@ -7,9 +7,7 @@ If the mod description does not include a link to my github, I will consider thi
 Если в описании мода нет ссылки на мой github, я сочту это нарушением и отправлю DMCA.
 
 
-
 Instructions:
-
 1. Download the archive HelicopterMod_SERVER-main.zip
 2. Run Dayz_tools https://store.steampowered.com/app/830640/DayZ_Tools/
 3. Launch and select AddonBuilder in it
@@ -18,17 +16,18 @@ Instructions:
 6. Pack it.
 7. You should get HelicopterMod_SERVER.pbo
 8. This is a server mod, it needs to be placed in the server mods folder on the server, it is not needed on the client and may cause errors.
-
-
+9. When the mod is packed, you can simply drop it in the server folder into the "Addons" folder, which is located next to the "dta" folder and that's it.
+it will not give an error to the players since it does not have a signature, but it will work!
 
 
 Инструкция:
-
 1. Скачиваете архив HelicopterMod_SERVER-main.zip
 2. Запускаете Dayz_tools https://store.steampowered.com/app/830640/DayZ_Tools/
 3. Запускаете и выбираете в нем AddonBuilder
 4. В строке Addons source directory указываете HelicopterMod_SERVER-main \ HelicopterMod_SERVER-main \ HelicopterMod_SERVER - папка HelicopterMod_SERVER
-5. 6. Уберите галочку Binarize
-7. Запаковываете.
-8. Должен получиться HelicopterMod_SERVER.pbo
-9. Это серверный мод, его нужно поместить в папку серверных модов на сервере, он не нужен на клиенте и может вызвать ошибки.
+5. Уберите галочку Binarize
+6. Запаковываете.
+7. Должен получиться HelicopterMod_SERVER.pbo
+8. Это серверный мод, его нужно поместить в папку серверных модов на сервере, он не нужен на клиенте и может вызвать ошибки.
+9. Когда мод запакован, его можно просто кинуть в папке сервера в папку Addons которая находиться рядом с папкой dta и все.
+он не будет выдавать ошибку у игроков так как у него нет подписи, но он будет работать!
