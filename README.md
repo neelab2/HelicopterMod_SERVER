@@ -16,7 +16,8 @@ Instructions:
 4. In the Addons source directory line, specify HelicopterMod_SERVER-main \ HelicopterMod_SERVER-main \ HelicopterMod_SERVER - the HelicopterMod_SERVER folder
 5. Uncheck Binarize
 6. Pack it.
-7. This is a server mod, it needs to be placed in the server mods folder on the server, it is not needed on the client and may cause errors.
+7. You should get HelicopterMod_SERVER.pbo
+8. This is a server mod, it needs to be placed in the server mods folder on the server, it is not needed on the client and may cause errors.
 
 
 
@@ -26,7 +27,8 @@ Instructions:
 1. Скачиваете архив HelicopterMod_SERVER-main.zip
 2. Запускаете Dayz_tools https://store.steampowered.com/app/830640/DayZ_Tools/
 3. Запускаете и выбираете в нем AddonBuilder
-4. В строке Addons source directory указываете HelicopterMod_SERVER-main \ HelicopterMod_SERVER-main \ HelicopterMod_SERVER - папка HelicopterMod_SERVER 
-5. Уберите галочку Binarize
-6. Запаковываете.
-7. Это серверный мод, его нужно поместить в папку серверных модов на сервере, он не нужен на клиенте и может вызвать ошибки.
+4. В строке Addons source directory указываете HelicopterMod_SERVER-main \ HelicopterMod_SERVER-main \ HelicopterMod_SERVER - папка HelicopterMod_SERVER
+5. 6. Уберите галочку Binarize
+7. Запаковываете.
+8. Должен получиться HelicopterMod_SERVER.pbo
+9. Это серверный мод, его нужно поместить в папку серверных модов на сервере, он не нужен на клиенте и может вызвать ошибки.
