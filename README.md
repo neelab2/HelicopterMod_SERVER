@@ -11,7 +11,7 @@ Instructions:
 1. Download the archive HelicopterMod_SERVER-main.zip
 2. Run Dayz_tools https://store.steampowered.com/app/830640/DayZ_Tools/
 3. Launch and select AddonBuilder in it
-4. In the Addons source directory line, specify HelicopterMod_SERVER-main \ HelicopterMod_SERVER-main \ HelicopterMod_SERVER - the HelicopterMod_SERVER folder
+4. In the Addons source directory line, specify  HelicopterMod_SERVER-main \ HelicopterMod_SERVER - the HelicopterMod_SERVER folder
 5. Uncheck Binarize
 6. Pack it.
 7. You should get HelicopterMod_SERVER.pbo
@@ -24,7 +24,7 @@ it will not give an error to the players since it does not have a signature, but
 1. Скачиваете архив HelicopterMod_SERVER-main.zip
 2. Запускаете Dayz_tools https://store.steampowered.com/app/830640/DayZ_Tools/
 3. Запускаете и выбираете в нем AddonBuilder
-4. В строке Addons source directory указываете HelicopterMod_SERVER-main \ HelicopterMod_SERVER-main \ HelicopterMod_SERVER - папка HelicopterMod_SERVER
+4. В строке Addons source directory указываете HelicopterMod_SERVER-main \ HelicopterMod_SERVER - папка HelicopterMod_SERVER
 5. Уберите галочку Binarize
 6. Запаковываете.
 7. Должен получиться HelicopterMod_SERVER.pbo
