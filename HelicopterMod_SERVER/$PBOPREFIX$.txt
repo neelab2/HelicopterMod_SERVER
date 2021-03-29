@@ -1,2 +1,2 @@
-﻿prefix=HelicopterMod_SERVER;
+prefix=HelicopterMod_SERVER;
 revision=1;
