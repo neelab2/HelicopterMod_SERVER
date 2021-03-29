@@ -12,11 +12,12 @@ Instructions:
 2. Run Dayz_tools https://store.steampowered.com/app/830640/DayZ_Tools/
 3. Launch and select AddonBuilder in it
 4. In the Addons source directory line, specify  HelicopterMod_SERVER-main \ HelicopterMod_SERVER - the HelicopterMod_SERVER folder
-5. Uncheck Binarize
-6. Pack it.
-7. You should get HelicopterMod_SERVER.pbo
-8. This is a server mod, it needs to be placed in the server mods folder on the server, it is not needed on the client and may cause errors.
-9. When the mod is packed, you can simply drop it in the server folder into the "Addons" folder, which is located next to the "dta" folder and that's it.
+5. For those who decided to ignore in 4 point, I repeat, DO NOT PACK HelicopterMod_SERVER-main the folder !!! find HelicopterMod_SERVER a folder in it and pack it in pbo ...!!!
+6. Uncheck Binarize
+7. Pack it.
+8. You should get HelicopterMod_SERVER.pbo
+9. This is a server mod, it needs to be placed in the server mods folder on the server, it is not needed on the client and may cause errors.
+10. When the mod is packed, you can simply drop it in the server folder into the "Addons" folder, which is located next to the "dta" folder and that's it.
 it will not give an error to the players since it does not have a signature, but it will work!
 
 
