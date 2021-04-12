@@ -32,3 +32,14 @@ it will not give an error to the players since it does not have a signature, but
 8. Это серверный мод, его нужно поместить в папку серверных модов на сервере, он не нужен на клиенте и может вызвать ошибки.
 9. Когда мод запакован, его можно просто кинуть в папке сервера в папку Addons которая находиться рядом с папкой dta и все.
 он не будет выдавать ошибку у игроков так как у него нет подписи, но он будет работать!
+
+
+
+
+The old method, hide the server mod file in the "Addons" folder in the server folder next to other pbo, since the  server mod file has no signature, it will not prevent players from entering the server, but it will work!
+
+go to your server folder
+find the "Addons" folder there
+via FTP or file manager
+server01 / Addons / 
+after each update of the game version, for example, before dayz v1.12, the file will be deleted and it will need to be added there again
