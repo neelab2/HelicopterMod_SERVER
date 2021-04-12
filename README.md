@@ -34,7 +34,7 @@ it will not give an error to the players since it does not have a signature, but
 он не будет выдавать ошибку у игроков так как у него нет подписи, но он будет работать!
 
 
-
+>>>>>>>>>>>>>>>>how to add a server mod - it doesn't need to be uploaded to the workshop<<<<<<<<<<<<<<
 
 The old method, hide the server mod file in the "Addons" folder in the server folder next to other pbo, since the  server mod file has no signature, it will not prevent players from entering the server, but it will work!
 
