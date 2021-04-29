@@ -53,3 +53,5 @@ find the "Addons" folder there
 via FTP or file manager
 server01 / Addons / 
 after each update of the game version, for example, before dayz v1.12, the file will be deleted and it will need to be added there again
+
+########If the blades are transparent and the engine start inscription does not respond, then the server mod has not turned on.##########
