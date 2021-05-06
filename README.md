@@ -1,10 +1,7 @@
-This is a free helicopter mod for dayz standalone it will be updated and improved.
-You can pack it to your workshop, provided that you provide a link to the source https://github.com/moddayz
-If the mod description does not include a link to my github, you forbid repackaging my mod or want to sell my mod, I will consider this a violation and will submit the DMCA.
+This mod is only for the server folder, it cannot be uploaded to the workshop!
+If you upload it to the workshop I will delete it through the DMCA.
 
-Это бесплатный мод на вертолет для автономной игры Dayz, он будет обновляться и улучшаться.
-Вы можете упаковать его в свою мастерскую, если предоставите ссылку на источник https://github.com/moddayz
-Если в описании мода нет ссылки на мой github, вы запрещаете мод перепаковывать или продаете мой мод, я сочту это нарушением и отправлю DMCA.
+Read the instruction below how to upload a pbo file to the server folder
 
 
 We have Discord, for those who need help, they can ask in the chat. We also publish news and plans there.
@@ -51,7 +48,7 @@ The old method, hide the server mod file in the "Addons" folder in the server fo
 go to your server folder
 find the "Addons" folder there
 via FTP or file manager
-server01 / Addons / 
+server01 / Addons / HelicopterMod_SERVER.pbo
 after each update of the game version, for example, before dayz v1.12, the file will be deleted and it will need to be added there again
 
 ########If the blades are transparent and the engine start inscription does not respond, then the server mod has not turned on.##########
