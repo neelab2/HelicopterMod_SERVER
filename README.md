@@ -51,7 +51,7 @@ The old method, hide the server mod file in the "Addons" folder in the server fo
 2. find the "Addons" folder there
 3. via FTP or file manager
 4. server01 / Addons / HelicopterMod_SERVER.pbo
-5. after each update of the game version, for example, before dayz v1.12, the file will be deleted and it will need to be added there again
-6. 
+5. after each update of the game version, for example, before dayz v1.13, the file will be deleted and it will need to be added there again
+
 
 ########If the blades are transparent and the engine start inscription does not respond, then the server mod has not turned on.##########
