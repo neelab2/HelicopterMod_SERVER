@@ -304,7 +304,6 @@ modded class HeliTest_SIB
 		posDown[1] = GetGame().SurfaceY(posDown[0], posDown[2]);
 		float m_height = vector.Distance( posUp, posDown);	
 		float m_height2 =0;
-		Print("m_height  zzz "+m_height);
 		float all_vert = GetHealth("", "");
 		if(all_vert <= 0 && !m_isDead)
 		{
