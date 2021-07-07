@@ -1,9 +1,9 @@
-https://github.com/moddayz This mod is only for the server folder, it cannot be uploaded to the workshop!
-If you upload it to the workshop I will delete it through the DMCA.
-Read the instruction below how to upload a pbo file to the server folder.
+>>>>>>>>>This mod is only for the server folder, it cannot be uploaded to the workshop!
+>>>>>>>>>If you upload it to the workshop I will delete it through the DMCA.
+>>>>>>>>>Read the instruction below how to upload a pbo file to the server folder.
 
-https://github.com/moddayz Этот мод предназначен только для серверной папки, его нельзя загрузить в мастерскую! Если вы загрузите его в мастерскую, я удалю его через DMCA.
-Прочтите инструкцию ниже, как загрузить файл pbo в папку сервера.
+>>>>>>>>> Этот мод предназначен только для серверной папки, его нельзя загрузить в мастерскую! Если вы загрузите его в мастерскую, я удалю его через DMCA.
+>>>>>>>>> Прочтите инструкцию ниже, как загрузить файл pbo в папку сервера.
 
 
 We have Discord, for those who need help, they can ask in the chat. We also publish news and plans there.
