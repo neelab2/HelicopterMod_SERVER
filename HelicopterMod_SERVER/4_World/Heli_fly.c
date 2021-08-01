@@ -88,11 +88,12 @@ modded class HeliTest_SIB
 
 		super.EEInit();
 		m_enable = true;
+		go_conf();
 		animatezz(this);
 		animatezzerror_stop1(this);
 		animatezzerror_stop2(this);
 		
-		go_conf();
+		
 	}
 	//functions old dayz start
 	void saturateMin(out int a, int b)
