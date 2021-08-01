@@ -88,8 +88,7 @@ modded class HeliTest_SIB
 
 		super.EEInit();
 		m_enable = true;
-		
-		SetAnimationPhase("toplivo",1);
+		animatezz(this);
 		animatezzerror_stop1(this);
 		animatezzerror_stop2(this);
 		
@@ -526,67 +525,75 @@ modded class HeliTest_SIB
 
 
 void animatezzstop(HeliTest_SIB zxEntity)
-	{
+{
 
-		if(zxEntity.GetHealth01("Rotor2", "Health") > 0.15)
-		{
-			zxEntity.SetAnimationPhase("rot2_h_start",0);  
-			zxEntity.SetAnimationPhase("rot2_h_blur_end",1);
-		}
-
-		if(zxEntity.GetHealth01("Rotor1", "Health") > 0.15)
-		{
-			zxEntity.SetAnimationPhase("rot_h_start",0);  
-			zxEntity.SetAnimationPhase("rot_h_blur_end",1);
-		}
-
-
-	}
-	
-
-	void animatezzerror1(HeliTest_SIB zxEntity)
-	{
-		zxEntity.SetAnimationPhase("rot_h_start",1);  
-		zxEntity.SetAnimationPhase("rot_h_blur_end",1);
-
-	}
-	
-
-	void animatezzerror2(HeliTest_SIB zxEntity)
-	{
-		zxEntity.SetAnimationPhase("rot2_h_start",1);  
-		zxEntity.SetAnimationPhase("rot2_h_blur_end",1);
-	}
-
-	void animatezzerror_stop1(HeliTest_SIB zxEntity)
-	{
-		zxEntity.SetAnimationPhase("rot_h_start",0);  
-		zxEntity.SetAnimationPhase("rot_h_blur_end",1);
-
-	}
-
-	void animatezzerror_stop2(HeliTest_SIB zxEntity)
+	if(zxEntity.GetHealth01("Rotor2", "Health") > 0.15)
 	{
 		zxEntity.SetAnimationPhase("rot2_h_start",0);  
 		zxEntity.SetAnimationPhase("rot2_h_blur_end",1);
-
 	}
 
-	// блюр
-	void animatezzstart(HeliTest_SIB zxEntity)
+	if(zxEntity.GetHealth01("Rotor1", "Health") > 0.15)
 	{
-		if(zxEntity.GetHealth01("Rotor2", "Health") > 0.15)
-		{
-			zxEntity.SetAnimationPhase("rot2_h_start",1);  
-			zxEntity.SetAnimationPhase("rot2_h_blur_end",0);
-		}
-
-		if(zxEntity.GetHealth01("Rotor1", "Health") > 0.15)
-		{
-			zxEntity.SetAnimationPhase("rot_h_start",1);  
-			zxEntity.SetAnimationPhase("rot_h_blur_end",0);
-		}
+		zxEntity.SetAnimationPhase("rot_h_start",0);  
+		zxEntity.SetAnimationPhase("rot_h_blur_end",1);
 	}
+
+
+}
+
+
+void animatezzerror1(HeliTest_SIB zxEntity)
+{
+	zxEntity.SetAnimationPhase("rot_h_start",1);  
+	zxEntity.SetAnimationPhase("rot_h_blur_end",1);
+
+}
+
+
+void animatezzerror2(HeliTest_SIB zxEntity)
+{
+	zxEntity.SetAnimationPhase("rot2_h_start",1);  
+	zxEntity.SetAnimationPhase("rot2_h_blur_end",1);
+}
+
+void animatezzerror_stop1(HeliTest_SIB zxEntity)
+{
+	zxEntity.SetAnimationPhase("rot_h_start",0);  
+	zxEntity.SetAnimationPhase("rot_h_blur_end",1);
+
+}
+
+void animatezzerror_stop2(HeliTest_SIB zxEntity)
+{
+	zxEntity.SetAnimationPhase("rot2_h_start",0);  
+	zxEntity.SetAnimationPhase("rot2_h_blur_end",1);
+
+}
+void animatezz(HeliTest_SIB zxEntity)
+{
+	animatezzstop(zxEntity);
+	if(zxEntity.gasoline_restart==1)
+	{
+		float go_fuil=zxEntity.maxFuel/100;
+		zxEntity.SetAnimationPhase("toplivo",go_fuil);
+	}
+}
+// блюр
+void animatezzstart(HeliTest_SIB zxEntity)
+{
+	if(zxEntity.GetHealth01("Rotor2", "Health") > 0.15)
+	{
+		zxEntity.SetAnimationPhase("rot2_h_start",1);  
+		zxEntity.SetAnimationPhase("rot2_h_blur_end",0);
+	}
+
+	if(zxEntity.GetHealth01("Rotor1", "Health") > 0.15)
+	{
+		zxEntity.SetAnimationPhase("rot_h_start",1);  
+		zxEntity.SetAnimationPhase("rot_h_blur_end",0);
+	}
+}
 
 
 
